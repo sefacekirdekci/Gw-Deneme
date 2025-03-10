@@ -1,0 +1,26 @@
+{
+  "$schema": "https://www.krakend.io/schema/krakend.json",
+  "version": 3,
+  "name": "KrakenD - API Gateway",
+  "timeout": "3000ms",
+  "cache_ttl": "300s",
+  "endpoints": [{
+    "endpoint": "/api/gw-demo-krakend",
+    "extra_config": {
+      "qos/ratelimit/router": {
+        "max_rate": 3,
+        "every": "1m",
+        "client_max_rate": 3
+      }
+    },
+    "backend": [
+      {
+        "host": [
+          "host.docker.internal:8080"
+        ],
+        "url_pattern": "/weatherforecast",
+        "method": "GET"
+      }
+    ]
+  }]
+}
