@@ -19,5 +19,15 @@
     networks:
       - backend
     command: [ "run", "-dc", "krakend.json" ]
+  redis:
+    image: redis:alpine
+    restart: always
+    environment:
+      REDIS_USER: "guest"
+      REDIS_PASSWORD: "guest"
+    ports:
+      - "6379:8080"
+    networks:
+      - backend
 networks:
   backend:
