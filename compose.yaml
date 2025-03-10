@@ -10,6 +10,7 @@
       - backend
     ports:
       - 8080:8080
+
   krakend:
     image: devopsfaith/krakend:latest
     volumes:
@@ -19,5 +20,48 @@
     networks:
       - backend
     command: [ "run", "-dc", "krakend.json" ]
+
+  # PostgreSQL - Kong'un veritabanı için gerekli
+  postgres:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_USER: kong
+      POSTGRES_PASSWORD: kong
+      POSTGRES_DB: kong
+    networks:
+      - backend
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Kong API Gateway
+  kong:
+    image: kong/kong-gateway:latest
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      KONG_DATABASE: "postgres"
+      KONG_PG_HOST: postgres
+      KONG_PG_USER: kong
+      KONG_PG_PASSWORD: kong
+      KONG_PROXY_ACCESS_LOG: "/dev/stdout"
+      KONG_ADMIN_ACCESS_LOG: "/dev/stdout"
+      KONG_PROXY_ERROR_LOG: "/dev/stderr"
+      KONG_ADMIN_ERROR_LOG: "/dev/stderr"
+      KONG_ADMIN_LISTEN: "0.0.0.0:8001"
+      KONG_PROXY_LISTEN: "0.0.0.0:8000"
+    ports:
+      - "8000:8000" # API Gateway (Public)
+      - "8443:8443" # API Gateway HTTPS
+      - "8001:8001" # Admin API
+      - "8444:8444" # Admin API HTTPS
+    networks:
+      - backend
 networks:
   backend:
+
+volumes:
+  postgres_data:
