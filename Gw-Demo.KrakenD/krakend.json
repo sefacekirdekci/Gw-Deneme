@@ -8,9 +8,13 @@
     "endpoint": "/api/gw-demo-krakend",
     "extra_config": {
       "qos/ratelimit/router": {
-        "max_rate": 3,
+        "max_rate": 5,
         "every": "1m",
-        "client_max_rate": 3
+        "client_max_rate": 5,
+
+        "strategy": "ip",
+        "capacity": 5,
+        "client_capacity": 5
       }
     },
     "backend": [
