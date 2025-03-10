@@ -15,12 +15,10 @@
           "capacity": 5,
           "rate": 60,
           "redis": {
-            "host": "localhost",
+            "host": "redis",
             "port": 6379,
             "db": 0,
-            "username": "guest",
-            "password": "guest",
-            "timeout": 10
+            "password": "guest"
           }
         }
       },
