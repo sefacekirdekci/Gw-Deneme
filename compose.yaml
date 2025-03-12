@@ -35,7 +35,29 @@
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-
+  ocelot:
+    image: ocelot.api
+    build:
+      context: .
+      dockerfile: Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    volumes:
+      - "./Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/ocelot.json:/app/ocelot.json" # Ocelot konfigürasyonu mount edildi
+    networks:
+      - backend
+    ports:
+      - "8082:80" # Ocelot için port ayarlandı
+    command: [ "dotnet", "Ocelot.Api.dll" ] # Ocelot'u başlat
+  traefik:
+    image: traefik:v2.5
+    command:
+      - --api.insecure=true
+      - --providers.file.filename=/etc/traefik/traefik.yaml
+    ports:
+      - "8083:8080"
+    volumes:
+      - ./Gw-Demo.Traefik:/etc/traefik
   # Kong API Gateway
   kong:
     image: kong/kong-gateway:latest

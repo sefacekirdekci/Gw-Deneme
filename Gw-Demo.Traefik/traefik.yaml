@@ -1,0 +1,41 @@
+# http routing section
+http:
+  routers:
+    # Define a connection between requests and services
+    to-whoami:
+      rule: "Host(`localhost:8083`) && PathPrefix(`/api/gw-demo-traefik`)"
+      # If the rule matches, forward to the whoami service (declared below)
+      service: whoami
+
+
+  services:
+    # Define how to reach an existing service on our infrastructure
+    whoami:
+      loadBalancer:
+        servers:
+          - url: http://host.docker.internal:8080/weatherforecast
+
+#http:
+#  routers:
+#    routerWeatheer:
+#      rule:"Host('http://host.docker.internal:8080') && Path('/weatherforecast')"
+#    
+#    traefik:
+#      rule: "PathPrefix(`/api/gw-demo-traefik`)"
+#      entryPoints:
+#        - web
+#      service: traefik
+#      middlewares:
+#        - ratelimit
+#
+#  services:
+#    traefik:
+#      loadBalancer:
+#        servers:
+#          - url: "http://host.docker.internal:8080"
+#
+#  middlewares:
+#    ratelimit:
+#      rateLimit:
+#        average: 5
+#        burst: 5
