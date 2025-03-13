@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "e/jb9Vl3MoM=",
+  "dgSpecHash": "5uDwpluPB+Y=",
   "success": true,
-  "projectFilePath": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Api/Gw-Demo.Api.csproj",
+  "projectFilePath": "/Users/tuna/sites/Gw-Deneme/Gw-Demo.Api/Gw-Demo.Api.csproj",
   "expectedPackageFiles": [
-    "/Users/berktanrikulu/.nuget/packages/microsoft.aspnetcore.openapi/9.0.2/microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
-    "/Users/berktanrikulu/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
-    "/Users/berktanrikulu/.nuget/packages/scalar.aspnetcore/2.0.26/scalar.aspnetcore.2.0.26.nupkg.sha512"
+    "/Users/tuna/.nuget/packages/microsoft.aspnetcore.openapi/9.0.2/microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "/Users/tuna/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/tuna/.nuget/packages/scalar.aspnetcore/2.0.26/scalar.aspnetcore.2.0.26.nupkg.sha512"
   ],
   "logs": []
 }

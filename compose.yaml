@@ -33,7 +33,7 @@
     networks:
       - backend
     ports:
-      - "8082:80" # Ocelot için port ayarlandı
+      - "8082:8080" # Ocelot için port ayarlandı
     command: [ "dotnet", "Ocelot.Api.dll" ] # Ocelot'u başlat
     
   traefik:
