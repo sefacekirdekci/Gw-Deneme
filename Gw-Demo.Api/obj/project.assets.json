@@ -109,19 +109,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/tuna/.nuget/packages/": {}
+    "/Users/berktanrikulu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tuna/sites/Gw-Deneme/Gw-Demo.Api/Gw-Demo.Api.csproj",
+      "projectUniqueName": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Api/Gw-Demo.Api.csproj",
       "projectName": "Gw-Demo.Api",
-      "projectPath": "/Users/tuna/sites/Gw-Deneme/Gw-Demo.Api/Gw-Demo.Api.csproj",
-      "packagesPath": "/Users/tuna/.nuget/packages/",
-      "outputPath": "/Users/tuna/sites/Gw-Deneme/Gw-Demo.Api/obj/",
+      "projectPath": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Api/Gw-Demo.Api.csproj",
+      "packagesPath": "/Users/berktanrikulu/.nuget/packages/",
+      "outputPath": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tuna/.nuget/NuGet/NuGet.Config"
+        "/Users/berktanrikulu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -179,7 +179,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/tuna/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/berktanrikulu/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,12 @@
+api:
+  dashboard: true
+  insecure: true  # For production, set to false and configure secure access
+
+entryPoints:
+  web:
+    address: ":80"
+
+providers:
+  file:
+    directory: "/etc/traefik/dynamic"
+    watch: true

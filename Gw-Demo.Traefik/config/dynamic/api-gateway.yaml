@@ -1,0 +1,22 @@
+http:
+  middlewares:
+    api-ratelimit:
+      rateLimit:
+        average: 5
+        period: 1m
+        burst: 5
+
+  services:
+    weatherforecast-service:
+      loadBalancer:
+        servers:
+          - url: "http://host.docker.internal:8080"
+
+  routers:
+    weatherforecast-api:
+      rule: "Host(`localhost`) && PathPrefix(`/weatherforecast`)"
+      service: weatherforecast-service
+      entryPoints:
+        - web
+      middlewares:
+        - api-ratelimit
