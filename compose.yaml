@@ -60,6 +60,21 @@
       - "8444:8444" # Admin API HTTPS
     networks:
       - backend
+  
+  ocelot:
+    image: ocelot.api
+    build:
+      context: .
+      dockerfile: Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    volumes:
+      - "./Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/ocelot.json:/app/ocelot.json" # Ocelot konfigürasyonu mount edildi
+    networks:
+      - backend
+    ports:
+      - "8082:8080" # Ocelot için port ayarlandı
+    command: [ "dotnet", "Ocelot.Api.dll" ] # Ocelot'u başlat
 networks:
   backend:
 
