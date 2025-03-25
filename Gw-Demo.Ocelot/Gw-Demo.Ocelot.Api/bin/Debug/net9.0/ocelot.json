@@ -8,8 +8,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5251
+          "Host": "host.docker.internal",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/api/gw-demo-ocelot",

@@ -1,5 +1,6 @@
 using System.Security.Claims;
-using Newtonsoft.Json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using Ocelot.Metadata;
 using Ocelot.Middleware;
 using Ocelot.PathManipulation;
@@ -11,7 +12,7 @@ public class HeaderMiddleware
     private readonly HttpClient _httpClient;
 
     private const string RequireSetCustomHeader = "RequireSetCustomHeader";
-    private const string SetHeaderPath = "host.docker.internal:8080/weatherforecasts";
+    private const string SetHeaderPath = "http://host.docker.internal:8080/weatherforecasts";
 
     public HeaderMiddleware(IHttpClientFactory httpClientFactory)
     {
@@ -32,7 +33,7 @@ public class HeaderMiddleware
                 return;
             
             var jsonResponse = await response.Content.ReadAsStringAsync();
-            var weatherForecastDto = JsonConvert.DeserializeObject<WeatherForecastDto>(jsonResponse);
+            var weatherForecastDto = JsonSerializer.Deserialize<WeatherForecastDto>(jsonResponse);
             var firstId = weatherForecastDto?.Data.First().Id;
         
             var downStreamRequest = context.Items.DownstreamRequest();
@@ -47,10 +48,12 @@ public class HeaderMiddleware
 
 public class WeatherForecastDto
 {
+    [JsonPropertyName("data")]
     public List<WeatherForecastItem> Data { get; set; }
 }
 
 public class WeatherForecastItem
 {
+    [JsonPropertyName("id")]
     public int Id { get; set; }
 }
