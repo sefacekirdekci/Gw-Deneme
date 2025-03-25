@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vD7AM77G0VBcFCsaDkfzmSKzkaoYiMGJvdPO77mCess=",
+  "Source": "Gw-Demo.Ocelot.Api",
+  "BasePath": "_content/Gw-Demo.Ocelot.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

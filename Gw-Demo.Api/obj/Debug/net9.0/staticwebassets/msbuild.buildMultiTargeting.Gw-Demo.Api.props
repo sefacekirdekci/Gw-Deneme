@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Gw-Demo.Api.props" />
+</Project>

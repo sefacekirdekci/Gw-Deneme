@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gw-Demo.Ocelot.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e11a1cddc5d2dc6c512a039b511955a839b311d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3b4aaaaaf6e932e36c7d5ee7f9c661995c44fe6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gw-Demo.Ocelot.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gw-Demo.Ocelot.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

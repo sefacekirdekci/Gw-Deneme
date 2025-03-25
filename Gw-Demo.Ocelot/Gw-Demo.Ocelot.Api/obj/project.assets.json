@@ -579,19 +579,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/mehmetsefacekirdekci/.nuget/packages/": {}
+    "/Users/berktanrikulu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mehmetsefacekirdekci/sites/Gw-Demo/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Gw-Demo.Ocelot.Api.csproj",
+      "projectUniqueName": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Gw-Demo.Ocelot.Api.csproj",
       "projectName": "Gw-Demo.Ocelot.Api",
-      "projectPath": "/Users/mehmetsefacekirdekci/sites/Gw-Demo/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Gw-Demo.Ocelot.Api.csproj",
-      "packagesPath": "/Users/mehmetsefacekirdekci/.nuget/packages/",
-      "outputPath": "/Users/mehmetsefacekirdekci/sites/Gw-Demo/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/",
+      "projectPath": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Gw-Demo.Ocelot.Api.csproj",
+      "packagesPath": "/Users/berktanrikulu/.nuget/packages/",
+      "outputPath": "/Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mehmetsefacekirdekci/.nuget/NuGet/NuGet.Config"
+        "/Users/berktanrikulu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -649,7 +649,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,9 @@
 {
   "Routes": [
     {
+      "Metadata": {
+        "RequireSetCustomHeader": true
+      },
       "DownstreamPathTemplate": "/weatherforecast",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [

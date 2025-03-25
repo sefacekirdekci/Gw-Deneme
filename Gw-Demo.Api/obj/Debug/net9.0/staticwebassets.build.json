@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LPJlcx5lSMNQifE7IGlh4+EicxSBmfJNINzszCa+GP8=",
+  "Source": "Gw-Demo.Api",
+  "BasePath": "_content/Gw-Demo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
