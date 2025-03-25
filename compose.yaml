@@ -15,11 +15,14 @@
     image: devopsfaith/krakend:latest
     volumes:
       - "./Gw-Demo.KrakenD:/etc/krakend"
+      - ./Gw-Demo.KrakenD/krakend-server-example.so:/opt/krakend/plugins/krakend-server-example.so
     ports:
       - "8081:8080"
     networks:
       - backend
     command: [ "run", "-dc", "krakend.json" ]
+    environment:
+      - KRAKEND_PLUGIN_FOLDER=/opt/krakend/plugins
 
   ocelot:
     image: ocelot.api

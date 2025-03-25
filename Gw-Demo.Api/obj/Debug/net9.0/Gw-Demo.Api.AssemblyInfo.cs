@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gw-Demo.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c257d21c8d2c667b8a98c3e6642ea9757d44295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b615e120630bad7c5eb78199c6ff65a219b783b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gw-Demo.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gw-Demo.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

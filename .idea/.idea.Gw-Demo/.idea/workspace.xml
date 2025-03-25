@@ -13,30 +13,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b949bada-8d69-4b79-96e1-f46f009dddd9" name="Changes" comment="Ocelot done">
-      <change afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Dockerfile" afterDir="false" />
+    <list default="true" id="b949bada-8d69-4b79-96e1-f46f009dddd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Gw-Demo.KrakenD/krakend-server-example.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gw-Demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gw-Demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/bin/Debug/net9.0/Gw-Demo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/bin/Debug/net9.0/Gw-Demo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/bin/Debug/net9.0/Gw-Demo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/bin/Debug/net9.0/Gw-Demo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/ref/Gw-Demo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/ref/Gw-Demo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/refint/Gw-Demo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/refint/Gw-Demo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Middlewares/HeaderMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Middlewares/HeaderMiddleware.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/bin/Debug/net9.0/Gw-Demo.Ocelot.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/bin/Debug/net9.0/Gw-Demo.Ocelot.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/bin/Debug/net9.0/Gw-Demo.Ocelot.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/bin/Debug/net9.0/Gw-Demo.Ocelot.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/bin/Debug/net9.0/ocelot.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/bin/Debug/net9.0/ocelot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/ref/Gw-Demo.Ocelot.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/ref/Gw-Demo.Ocelot.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/refint/Gw-Demo.Ocelot.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/refint/Gw-Demo.Ocelot.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Debug/net9.0/Gw-Demo.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Gw-Demo.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Gw-Demo.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/Gw-Demo.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/Gw-Demo.Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gw-Demo.KrakenD/krakend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gw-Demo.KrakenD/krakend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +52,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Gw-Demo.KrakenD/krakend.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Middlewares/HeaderMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/Properties/launchSettings.json" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/berktanrikulu/repos/Gw-Deneme/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gw-Demo.Ocelot/Gw-Demo.Ocelot.Api/obj/Debug/net9.0/Gw-Demo.Ocelot.Api.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -79,20 +73,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Gw-Demo.Api: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Gw-Demo.Api: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Gw-Demo.Api: http">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -270,6 +264,7 @@
       <workItem from="1741595940222" duration="19636000" />
       <workItem from="1742556006303" duration="803000" />
       <workItem from="1742900842709" duration="2372000" />
+      <workItem from="1742912189142" duration="1427000" />
     </task>
     <task id="LOCAL-00001" summary="Ocelot done">
       <option name="closed" value="true" />

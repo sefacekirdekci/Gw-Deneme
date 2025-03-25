@@ -1,6 +1,10 @@
 {
   "$schema": "https://www.krakend.io/schema/krakend.json",
   "version": 3,
+  "plugin": {
+    "pattern": ".so",
+    "folder": "/opt/krakend/plugins"
+  },
   "name": "KrakenD - API Gateway",
   "timeout": "3000ms",
   "cache_ttl": "300s",
@@ -26,5 +30,16 @@
         "method": "GET"
       }
     ]
-  }]
+  }],
+  "extra_config": {
+    "plugin/http-server": {
+      "name": ["krakend-server-example", "krakend-server-example-2"],
+      "krakend-server-example": {
+        "path": "/api/gw-demo-krakend"
+      },
+      "krakend-server-example2": {
+        "path": "/api/gw-demo-krakend2"
+      }
+    }
+  }
 }
